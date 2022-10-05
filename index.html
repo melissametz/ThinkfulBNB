@@ -12,58 +12,64 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
+<!--Logo and Nav-->
 <body>
   <header>
     <div class="logo">Thinkfulbnb</div>
-    <nav>
-      <ul class="group" id="menu">
-        <li class="item"><a href="#stay">Stay</a></li>
-        <li class="item"><a href="#about">About</a></li>
-        <li class="item"><a href="#ideas">Ideas</a></li>
-        <li class="item"><a href="#host">Host</a></li>
+    <div>
+      <nav>
+      <ul id="menu">
+        <li><a href="#stay">Stay</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#ideas">Ideas</a></li>
+        <li><a href="#host">Host</a></li>
       </ul>
     </nav>
+    </div>
   </header>
 
+<!-- Main Header - Stay -->
   <main>
-    <!-- Stay -->
     <section id="stay">
       <h2>Find the Perfect Vacation Rental</h2>
 
-      <!-- Create a form here -->
-      <form action="rental-search-parameters" method="post">
-        <div class="form-box">
-          <label for="name">Location</label>
-          <input id="name" type="text" name="name" placeholder="Search Destination" />
-        </div>
-        <div class="form-box">
-          <label for="arrive">Arrive</label>
-          <input id="arrive" type="date" name="arrive" />
-        </div>
-        <div class="form-box">
-          <label for="depart">Depart</label>
-          <input id="depart" type="date" name="depart" />
-        </div>
-        <div class="form-box">
-          <label for="type">Type</label>
-          <select id="type" name="type" size="1">
-            <option value="apartment">Apartment</option>
-            <option value="barn">Barn</option>
-            <option value="castle">Castle</option>
-            <option value="houseboat">Houseboat</option>
-            <option value="tinyhouse">Tiny House</option>
-            <option value="yacht">Yacht</option>
-            <option value="yurt">Yurt</option>
-          </select>
-        </div>
-        <div class="form-box">
-          <button type="submit">Search</button>
-        </div>
+<!-- Search Form -->
+    <form class="">
+      <div class="">
+        <label for="location">Location </label>
+        <input name="location" type="text" id="location" placeholder="Search destination"/>
+      </div>
+    
+      <div class="">
+        <label for="arrive">Arrive </label>
+        <input name="arrive" type="date" id="arrive" />
+      </div>
+    
+      <div class="">
+        <label for="depart">Depart </label>
+        <input name="depart" type="date" id="depart" />
+      </div>
+    
+      <div class="">
+        <label for="type">Type </label>
+        <select name="fonts" id="fonts" size="1">
+          <option value="apartment">Apartment</option>
+          <option value="barn">Barn</option>
+          <option value="castle">Castle</option>
+          <option value="houseboat">Houseboat</option>
+          <option value="tiny-house">Tiny House</option>
+          <option value="yacht">Yacht</option>
+          <option value="yurt">Yurt</option>
+        </select>
+      </div>
+    
+      <div>
+        <button>Search</button>
+      </div>  
       </form>
+</section>
 
-    </section>
-
-    <!-- About -->
+<!-- About Section -->
     <section id="about" class="alternate-background">
       <h2>About</h2>
       <div class="group1">
@@ -82,7 +88,7 @@
       </div>
     </section>
 
-    <!-- Ideas -->
+<!-- Ideas Section -->
     <section id="ideas">
       <h2>Ideas</h2>
       <div class="group2">
@@ -107,7 +113,7 @@
       </div>
     </section>
 
-    <!-- Host -->
+<!-- Host Section -->
     <section id="host" class="alternate-background">
       <div class="group2">
         <div class="item3">
@@ -137,6 +143,7 @@
     </section>
   </main>
 
+  <!--Footer-->
   <footer>
     <p>© Thinkful</p>
   </footer>

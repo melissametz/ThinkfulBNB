@@ -1,6 +1,4 @@
-# Thinkfulbnb
-
-Site: https://melissametz.github.io/ThinkfulBNB/
+# [ Thinkfulbnb]()
 
 Thinkfulbnb is a vacation rental website that allows people to rent out their homes to people who are seeking short-term accommodations in that locale. Thinkfulbnb hosts rent out different kinds of properties, including single rooms, apartments, and unique living spaces such as yachts, houseboats, yurts, tiny houses, and even renovated medieval castles.
 
@@ -93,7 +91,7 @@ Your final form design should look as follows:
 
 Now that your mobile design is looking good, you will need to adapt the design for the desktop view.
 
-- In `style.css`, create a media query for screens that are wider than `480px`.
+- In `style.css`, create a media query for screens that are wider than `768px`.
 
 Within the media query, write CSS to create the following designs for desktop:
 
